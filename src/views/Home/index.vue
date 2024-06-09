@@ -12,7 +12,6 @@
 import { computed } from 'vue';
 import { routes } from '../../router/index';
 
-
 const routeList = computed(() => routes)
 
 </script>
