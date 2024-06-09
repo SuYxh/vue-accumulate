@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+      // 与Vite配置中的别名保持一致
+    },
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
