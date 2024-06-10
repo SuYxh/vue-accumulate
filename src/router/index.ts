@@ -26,6 +26,11 @@ export const routes: Array<RouteRecordRaw> = [
     name: 'IconPage',
     component: () => import('@/views/IconPage/index.vue')
   },
+  {
+    path: '/tooltip-page',
+    name: 'TooltipPage',
+    component: () => import('@/views/TooltipPage/index.vue')
+  },
 ];
 
 
