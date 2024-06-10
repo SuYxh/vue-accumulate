@@ -16,6 +16,11 @@ export const routes: Array<RouteRecordRaw> = [
     name: 'ButtonPage',
     component: () => import('@/views/ButtonPage/index.vue')
   },
+  {
+    path: '/collapse-page',
+    name: 'CollapsePage',
+    component: () => import('@/views/CollapsePage/index.vue')
+  },
 ];
 
 
