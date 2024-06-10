@@ -21,6 +21,11 @@ export const routes: Array<RouteRecordRaw> = [
     name: 'CollapsePage',
     component: () => import('@/views/CollapsePage/index.vue')
   },
+  {
+    path: '/icon-page',
+    name: 'IconPage',
+    component: () => import('@/views/IconPage/index.vue')
+  },
 ];
 
 
