@@ -36,6 +36,11 @@ export const routes: Array<RouteRecordRaw> = [
     name: 'DropdownPage',
     component: () => import('@/views/DropdownPage/index.vue')
   },
+  {
+    path: '/message-page',
+    name: 'MessagePage',
+    component: () => import('@/views/MessagePage/index.vue')
+  },
 ];
 
 
