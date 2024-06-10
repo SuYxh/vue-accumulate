@@ -31,6 +31,11 @@ export const routes: Array<RouteRecordRaw> = [
     name: 'TooltipPage',
     component: () => import('@/views/TooltipPage/index.vue')
   },
+  {
+    path: '/dropdown-page',
+    name: 'DropdownPage',
+    component: () => import('@/views/DropdownPage/index.vue')
+  },
 ];
 
 
