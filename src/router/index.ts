@@ -41,6 +41,11 @@ export const routes: Array<RouteRecordRaw> = [
     name: 'MessagePage',
     component: () => import('@/views/MessagePage/index.vue')
   },
+  {
+    path: '/input-page',
+    name: 'InputPage',
+    component: () => import('@/views/InputPage/index.vue')
+  },
 ];
 
 
