@@ -46,6 +46,11 @@ export const routes: Array<RouteRecordRaw> = [
     name: 'InputPage',
     component: () => import('@/views/InputPage/index.vue')
   },
+  {
+    path: '/switch-page',
+    name: 'SwitchPage',
+    component: () => import('@/views/SwitchPage/index.vue')
+  },
 ];
 
 
